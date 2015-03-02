@@ -5,6 +5,8 @@ class TestMyClass(unittest.TestCase):
 
 	def setUp(self):
 	
+	def tearDown(self):
+	
 	def test_myfunction(self):
 	
 		#self.assertTrue(self.portalAdmin.is_logged_in, "Logged in user not known.")
